@@ -1,0 +1,47 @@
+body{
+  background-image: url(./resources/bjaskier-actor-joey-bateybbrjaskier-known-as-dandelion-to-wi_ahfb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+
+h1{
+  font-weight: bolder;
+  color: white;
+  font-size: xx-large;
+}
+
+h2{
+  font-weight: bolder;
+  color: white;
+  size: 12px;
+}
+.CoinImage{
+  width: 1000px;
+  height: 1000px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#btn-toss {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
